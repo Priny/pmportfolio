@@ -35,6 +35,3 @@ def contact(request):
     return render(request, 'contact.html')
     #return HttpResponse("Hello, world. You're at the polls index.")
 
-def reviews(request):
-    return render(request, 'reviewsold.html')
-    #return HttpResponse("Hello, world. You're at the polls index.")
